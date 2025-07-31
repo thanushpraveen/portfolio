@@ -1,0 +1,48 @@
+/* Portfolio-specific styles that complement Tailwind */
+
+/* Simple Tech Badge Styles */
+.tech-badge-simple {
+  @apply inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium border-2;
+  @apply transition-all duration-200 ease-in-out;
+  @apply hover:scale-105 hover:shadow-md;
+  @apply cursor-pointer;
+  @apply mb-3 mr-3;
+}
+
+/* Simple Tech Stack Section */
+.tech-stack-simple {
+  @apply bg-white rounded-xl p-8 shadow-lg border border-gray-200;
+}
+
+.tech-stack-grid-simple {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.tech-category-simple {
+  @apply p-4 rounded-lg border border-gray-200 bg-gray-50;
+}
+
+.tech-category-title-simple {
+  @apply text-lg font-semibold mb-4 pb-2 flex items-center;
+  @apply border-b-2 border-gray-300;
+}
+
+.tech-badges-container-simple {
+  @apply flex flex-wrap gap-3;
+}
+
+/* Simple hover effects */
+.tech-badge-simple:hover {
+  @apply transform -translate-y-1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .tech-stack-grid-simple {
+    @apply grid-cols-1;
+  }
+  
+  .tech-badge-simple {
+    @apply mb-2 mr-2;
+  }
+}
