@@ -88,7 +88,7 @@ This will be **one master doc** so you can drop it into GitHub, Notion, or a pro
 
 ***
 
-### **2️⃣ Gantt Chart – Timeline \& Priorities**
+### **2️⃣ Gantt Chart – Timeline \& Priorities** https://www.mermaidchart.com/app/projects/efe86ce1-4dfc-4f10-8306-41bb73775306/diagrams/1c164a62-958d-409c-bd31-31d5ed34e272/version/v0.1/edit
 
 ```mermaid
 gantt
@@ -157,7 +157,7 @@ gantt
 
 ***
 
-### **3️⃣ Dependency Flowchart – Structure View**
+### **3️⃣ Dependency Flowchart – Structure View** https://www.mermaidchart.com/app/projects/efe86ce1-4dfc-4f10-8306-41bb73775306/diagrams/ecac7df4-9ab2-44fc-9263-d15d848cf4d2/version/v0.1/edit
 
 ```mermaid
 flowchart TD
